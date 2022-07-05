@@ -38,6 +38,7 @@ export default {
       default: false,
     },
   },
+  emits: ["toggleFavorite"],
   data() {
     return {
       detailsVisible: false,
